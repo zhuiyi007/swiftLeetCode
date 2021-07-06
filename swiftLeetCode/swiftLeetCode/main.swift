@@ -8,23 +8,41 @@
 import Foundation
 
 // 链表
+let listNode1_1 = ListNode.init(1, nil)
+let listNode2_1 = ListNode.init(2, listNode1_1)
+let listNode2 = ListNode.init(2, listNode2_1)
+let listNode1 = ListNode.init(1, listNode2)
+Solution234().isPalindrome(listNode1)
+
+//输入：head = [1,4,3,2,5,2], x = 3
+//输出：[1,2,2,4,3,5]
+
+//let listNode2 = ListNode.init(2, nil)
+//let listNode5 = ListNode.init(5, listNode2)
+//let listNode2_1 = ListNode.init(2, listNode5)
+//let listNode3 = ListNode.init(3, listNode2_1)
+//let listNode4 = ListNode.init(4, listNode3)
+//let listNode1 = ListNode.init(1, listNode4)
+//
+//Solution86().partition(listNode1, 3)
+
 
 // 4 -> 1 -> [8 -> 4 -> 5] -> 5 -> 0 -> 1 -> [8 -> 4 -> 5]
 // 5 -> 0 -> 1 -> [8 -> 4 -> 5] -> 4 -> 1 -> [8 -> 4 -> 5]
 
-let listNode21 = ListNode.init(21, nil)
-let listNode19 = ListNode.init(19, listNode21)
-let listNode17 = ListNode.init(17, listNode19)
-let listNode15 = ListNode.init(15, listNode17)
-let listNode13 = ListNode.init(13, listNode15)
-let listNode11 = ListNode.init(11, listNode13)
-let listNode9 = ListNode.init(9, listNode11)
-let listNode7 = ListNode.init(7, listNode9)
-let listNode5 = ListNode.init(5, listNode7)
-let listNode3 = ListNode.init(3, listNode5)
-let listNode1 = ListNode.init(1, listNode3)
-
-let listNode2 = ListNode.init(2, nil)
+//let listNode21 = ListNode.init(21, nil)
+//let listNode19 = ListNode.init(19, listNode21)
+//let listNode17 = ListNode.init(17, listNode19)
+//let listNode15 = ListNode.init(15, listNode17)
+//let listNode13 = ListNode.init(13, listNode15)
+//let listNode11 = ListNode.init(11, listNode13)
+//let listNode9 = ListNode.init(9, listNode11)
+//let listNode7 = ListNode.init(7, listNode9)
+//let listNode5 = ListNode.init(5, listNode7)
+//let listNode3 = ListNode.init(3, listNode5)
+//let listNode1 = ListNode.init(1, listNode3)
+//
+//let listNode2 = ListNode.init(2, nil)
 
 //let listNode5 = ListNode.init(5, nil)
 //let listNode4 = ListNode.init(4, listNode5)
@@ -36,7 +54,7 @@ let listNode2 = ListNode.init(2, nil)
 //let listNode1_1 = ListNode.init(1, listNode8)
 //let listNode0 = ListNode.init(0, listNode1_1)
 //let listNode5_1 = ListNode.init(5, listNode0)
-Solution160().getIntersectionNode(listNode1, listNode2)
+//Solution160().getIntersectionNode(listNode1, listNode2)
 
 
 //let listNode4 = ListNode.init(4, nil)

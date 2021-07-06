@@ -22,6 +22,8 @@
 		527B7F10268EC0C00075F29A /* 977有序数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F0F268EC0C00075F29A /* 977有序数组的平方.swift */; };
 		527B7F13268F19440075F29A /* 203移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F12268F19440075F29A /* 203移除链表元素.swift */; };
 		527B7F15268F2E920075F29A /* 2两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F14268F2E920075F29A /* 2两数相加.swift */; };
+		52878A3826941E3A0019A436 /* 86分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52878A3726941E3A0019A436 /* 86分隔链表.swift */; };
+		52878A3A269422590019A436 /* 234回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52878A39269422590019A436 /* 234回文链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +55,8 @@
 		527B7F0F268EC0C00075F29A /* 977有序数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "977有序数组的平方.swift"; sourceTree = "<group>"; };
 		527B7F12268F19440075F29A /* 203移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203移除链表元素.swift"; sourceTree = "<group>"; };
 		527B7F14268F2E920075F29A /* 2两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2两数相加.swift"; sourceTree = "<group>"; };
+		52878A3726941E3A0019A436 /* 86分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86分隔链表.swift"; sourceTree = "<group>"; };
+		52878A39269422590019A436 /* 234回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234回文链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 				527B7F12268F19440075F29A /* 203移除链表元素.swift */,
 				527B7F14268F2E920075F29A /* 2两数相加.swift */,
 				5254F6CA26931A1F00FA5333 /* 160相交链表.swift */,
+				52878A3726941E3A0019A436 /* 86分隔链表.swift */,
+				52878A39269422590019A436 /* 234回文链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -194,10 +200,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5225CD1C268C425400B1AD3B /* 64最小路径和.swift in Sources */,
+				52878A3A269422590019A436 /* 234回文链表.swift in Sources */,
 				5225CD1E268C4FE000B1AD3B /* 62不同路径.swift in Sources */,
 				5225CD1A268C1FD600B1AD3B /* 121买卖股票的最佳时机.swift in Sources */,
 				5225CD10268B067500B1AD3B /* main.swift in Sources */,
 				527B7F0A268EAEC20075F29A /* 88合并两个有序数组.swift in Sources */,
+				52878A3826941E3A0019A436 /* 86分隔链表.swift in Sources */,
 				5225CD18268B072600B1AD3B /* Offer47礼物的最大价值.swift in Sources */,
 				527B7F15268F2E920075F29A /* 2两数相加.swift in Sources */,
 				527B7F10268EC0C00075F29A /* 977有序数组的平方.swift in Sources */,

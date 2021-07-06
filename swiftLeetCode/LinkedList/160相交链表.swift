@@ -5,6 +5,11 @@
 //  Created by 张森 on 2021/7/5.
 //  160. 相交链表
 //  https://leetcode-cn.com/problems/intersection-of-two-linked-lists
+//  相同题目:
+//  面试题 02.07. 链表相交
+//  https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/
+//  剑指 Offer 52. 两个链表的第一个公共节点
+//  https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
 
 /**
  给你两个单链表的头节点 headA 和 headB ，请你找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 null 。
