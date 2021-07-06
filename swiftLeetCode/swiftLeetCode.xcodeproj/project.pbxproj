@@ -15,11 +15,13 @@
 		5225CD20268C666F00B1AD3B /* 5最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225CD1F268C666F00B1AD3B /* 5最长回文子串.swift */; };
 		5225CD23268D9F2600B1AD3B /* 236二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225CD22268D9F2600B1AD3B /* 236二叉树的最近公共祖先.swift */; };
 		5225CD25268DAF7700B1AD3B /* 99恢复二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225CD24268DAF7700B1AD3B /* 99恢复二叉搜索树.swift */; };
+		5254F6CB26931A1F00FA5333 /* 160相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254F6CA26931A1F00FA5333 /* 160相交链表.swift */; };
 		527B7F0A268EAEC20075F29A /* 88合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F09268EAEC20075F29A /* 88合并两个有序数组.swift */; };
 		527B7F0C268EB5820075F29A /* 75颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F0B268EB5820075F29A /* 75颜色分类.swift */; };
 		527B7F0E268EB9270075F29A /* 面试题16_16部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F0D268EB9270075F29A /* 面试题16_16部分排序.swift */; };
 		527B7F10268EC0C00075F29A /* 977有序数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F0F268EC0C00075F29A /* 977有序数组的平方.swift */; };
 		527B7F13268F19440075F29A /* 203移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F12268F19440075F29A /* 203移除链表元素.swift */; };
+		527B7F15268F2E920075F29A /* 2两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B7F14268F2E920075F29A /* 2两数相加.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,11 +46,13 @@
 		5225CD1F268C666F00B1AD3B /* 5最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5最长回文子串.swift"; sourceTree = "<group>"; };
 		5225CD22268D9F2600B1AD3B /* 236二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		5225CD24268DAF7700B1AD3B /* 99恢复二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "99恢复二叉搜索树.swift"; sourceTree = "<group>"; };
+		5254F6CA26931A1F00FA5333 /* 160相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160相交链表.swift"; sourceTree = "<group>"; };
 		527B7F09268EAEC20075F29A /* 88合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88合并两个有序数组.swift"; sourceTree = "<group>"; };
 		527B7F0B268EB5820075F29A /* 75颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75颜色分类.swift"; sourceTree = "<group>"; };
 		527B7F0D268EB9270075F29A /* 面试题16_16部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题16_16部分排序.swift"; sourceTree = "<group>"; };
 		527B7F0F268EC0C00075F29A /* 977有序数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "977有序数组的平方.swift"; sourceTree = "<group>"; };
 		527B7F12268F19440075F29A /* 203移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203移除链表元素.swift"; sourceTree = "<group>"; };
+		527B7F14268F2E920075F29A /* 2两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2两数相加.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				527B7F12268F19440075F29A /* 203移除链表元素.swift */,
+				527B7F14268F2E920075F29A /* 2两数相加.swift */,
+				5254F6CA26931A1F00FA5333 /* 160相交链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -193,12 +199,14 @@
 				5225CD10268B067500B1AD3B /* main.swift in Sources */,
 				527B7F0A268EAEC20075F29A /* 88合并两个有序数组.swift in Sources */,
 				5225CD18268B072600B1AD3B /* Offer47礼物的最大价值.swift in Sources */,
+				527B7F15268F2E920075F29A /* 2两数相加.swift in Sources */,
 				527B7F10268EC0C00075F29A /* 977有序数组的平方.swift in Sources */,
 				527B7F0E268EB9270075F29A /* 面试题16_16部分排序.swift in Sources */,
 				527B7F0C268EB5820075F29A /* 75颜色分类.swift in Sources */,
 				5225CD20268C666F00B1AD3B /* 5最长回文子串.swift in Sources */,
 				527B7F13268F19440075F29A /* 203移除链表元素.swift in Sources */,
 				5225CD23268D9F2600B1AD3B /* 236二叉树的最近公共祖先.swift in Sources */,
+				5254F6CB26931A1F00FA5333 /* 160相交链表.swift in Sources */,
 				5225CD25268DAF7700B1AD3B /* 99恢复二叉搜索树.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
