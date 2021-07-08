@@ -7,12 +7,59 @@
 
 import Foundation
 
-// 链表
-let listNode1_1 = ListNode.init(1, nil)
-let listNode2_1 = ListNode.init(2, listNode1_1)
-let listNode2 = ListNode.init(2, listNode2_1)
-let listNode1 = ListNode.init(1, listNode2)
-Solution234().isPalindrome(listNode1)
+// ----- 字符串 -----
+
+print(Solution242().isAnagram("abc", "aba"))
+
+//给定的树 s:
+//     3
+//    / \
+//   4   5
+//  / \
+// 1   2
+//给定的树 t：
+//   4
+//  / \
+// 1   2
+
+//var node3 = TreeNode(3)
+//var node4 = TreeNode(4)
+//var node5 = TreeNode(5)
+//var node1 = TreeNode(1)
+//var node2 = TreeNode(2)
+//node3.left = node4
+//node3.right = node5
+//node4.left = node1
+//node4.right = node2
+//
+//var node4_1 = TreeNode(4)
+//var node1_1 = TreeNode(1)
+//var node2_1 = TreeNode(2)
+//node4_1.left = node1_1
+//node4_1.right = node2_1
+//
+//Solution572().isSubtree(node3, node4_1)
+
+// ----- 栈&队列 -----
+//print(Solution739().dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]))
+//Solution654().constructMaximumBinaryTree([3,2,1,6,0,5])
+
+//print(Solution239().maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3))
+//var stack = MinStack.init()
+//stack.push(-2)
+//stack.push(0)
+//stack.push(-1)
+//stack.getMin()
+//stack.pop()
+//stack.top()
+//stack.getMin()
+
+// ----- 链表 -----
+//let listNode1_1 = ListNode.init(1, nil)
+//let listNode2_1 = ListNode.init(2, listNode1_1)
+//let listNode2 = ListNode.init(2, listNode2_1)
+//let listNode1 = ListNode.init(1, listNode2)
+//Solution234().isPalindrome(listNode1)
 
 //输入：head = [1,4,3,2,5,2], x = 3
 //输出：[1,2,2,4,3,5]
@@ -86,7 +133,7 @@ Solution234().isPalindrome(listNode1)
 //
 //print(Solution203().removeElements(listNode1, 6) as Any)
 
-// 数组排序
+// ----- 数组排序 -----
 //print(Solution977().sortedSquares([-5,-3,-2,-1]))
 //print(Solution16_16().subSort([1,2,4,7,10,11,7,12,6,7,16,18,19]))
 
@@ -96,7 +143,7 @@ Solution234().isPalindrome(listNode1)
 //var array88 = [2,0]
 //print(Solution88().merge(&array, 1, [1], 1))
 
-// 二叉树
+// ----- 二叉树 -----
 //var node3 = TreeNode.init(3);
 //var node1 = TreeNode.init(1);
 //var node2 = TreeNode.init(2);
@@ -131,7 +178,7 @@ Solution234().isPalindrome(listNode1)
 
 //print(Solution236().lowestCommonAncestor(node3, node6, node4)!.val)
 
-// 动态规划
+// ----- 动态规划 -----
 //print(Solution5().longestPalindrome("cbbd"))
 //print(Solution62().uniquePaths(7, 3))
 //print(Solution64().minPathSum([[1,3,1],[1,5,1],[4,2,1]]))

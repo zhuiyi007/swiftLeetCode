@@ -47,15 +47,11 @@ public class TreeNode {
 class Solution236 {
     
     // 此方法为在root树中寻找p和q的最近公共祖先
-    // 执行用时：144 ms, 在所有 Swift 提交中击败了5.10%的用户
-    // 内存消耗：21.2 MB, 在所有 Swift 提交中击败了5.10%的用户
+    // 执行用时：92 ms, 在所有 Swift 提交中击败了71.05%的用户
+    // 内存消耗：19.5 MB, 在所有 Swift 提交中击败了52.63%的用户
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         
-        let rootPoint = Unmanaged<AnyObject>.passUnretained(root as AnyObject).toOpaque()
-        let pPoint = Unmanaged<AnyObject>.passUnretained(p as AnyObject).toOpaque()
-        let qPoint = Unmanaged<AnyObject>.passUnretained(q as AnyObject).toOpaque()
-        
-        if root == nil || rootPoint == pPoint || rootPoint == qPoint {
+        if root == nil || root === p || root === q {
             // 如果没有根节点,或者其中有一个节点是根节点,则直接返回根节点
             return root
         }
@@ -69,8 +65,8 @@ class Solution236 {
          3. 左右子树返回值均为null, p和q均不在树中, 返回null
          **/
         
-        let left = Solution236().lowestCommonAncestor(root?.left, p, q)
-        let right = Solution236().lowestCommonAncestor(root?.right, p, q)
+        let left = lowestCommonAncestor(root?.left, p, q)
+        let right = lowestCommonAncestor(root?.right, p, q)
         
         if left != nil && right != nil {
             // 如果在左子树和右子树中都没有找到共同的祖先,则根节点是最近公共祖先
