@@ -31,6 +31,10 @@
 		52878A3A269422590019A436 /* 234回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52878A39269422590019A436 /* 234回文链表.swift */; };
 		52878A3D269453D10019A436 /* 155最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52878A3C269453D10019A436 /* 155最小栈.swift */; };
 		52878A3F269465670019A436 /* 239滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52878A3E269465670019A436 /* 239滑动窗口最大值.swift */; };
+		52F08F26269FD19E00FBB0BE /* 17电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F08F25269FD19E00FBB0BE /* 17电话号码的字母组合.swift */; };
+		52F08F28269FDC6B00FBB0BE /* 46全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F08F27269FDC6A00FBB0BE /* 46全排列.swift */; };
+		52F08F2A269FE3C800FBB0BE /* 47全排列II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F08F29269FE3C800FBB0BE /* 47全排列II.swift */; };
+		52F08F2C26A02E3400FBB0BE /* 22括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F08F2B26A02E3400FBB0BE /* 22括号生成.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +75,10 @@
 		52878A39269422590019A436 /* 234回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234回文链表.swift"; sourceTree = "<group>"; };
 		52878A3C269453D10019A436 /* 155最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155最小栈.swift"; sourceTree = "<group>"; };
 		52878A3E269465670019A436 /* 239滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239滑动窗口最大值.swift"; sourceTree = "<group>"; };
+		52F08F25269FD19E00FBB0BE /* 17电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17电话号码的字母组合.swift"; sourceTree = "<group>"; };
+		52F08F27269FDC6A00FBB0BE /* 46全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46全排列.swift"; sourceTree = "<group>"; };
+		52F08F29269FE3C800FBB0BE /* 47全排列II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47全排列II.swift"; sourceTree = "<group>"; };
+		52F08F2B26A02E3400FBB0BE /* 22括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22括号生成.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 		5225CD03268B067500B1AD3B = {
 			isa = PBXGroup;
 			children = (
+				52F08F24269FD18000FBB0BE /* DFS */,
 				5226A2A22696E68D0009D847 /* String */,
 				52878A3B269453B00019A436 /* StackQueue */,
 				527B7F11268F192C0075F29A /* LinkedList */,
@@ -179,6 +188,17 @@
 			path = StackQueue;
 			sourceTree = "<group>";
 		};
+		52F08F24269FD18000FBB0BE /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				52F08F25269FD19E00FBB0BE /* 17电话号码的字母组合.swift */,
+				52F08F27269FDC6A00FBB0BE /* 46全排列.swift */,
+				52F08F29269FE3C800FBB0BE /* 47全排列II.swift */,
+				52F08F2B26A02E3400FBB0BE /* 22括号生成.swift */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,6 +261,7 @@
 				5225CD1C268C425400B1AD3B /* 64最小路径和.swift in Sources */,
 				5226A29F2696DA470009D847 /* 654最大二叉树.swift in Sources */,
 				52878A3A269422590019A436 /* 234回文链表.swift in Sources */,
+				52F08F2A269FE3C800FBB0BE /* 47全排列II.swift in Sources */,
 				5225CD1E268C4FE000B1AD3B /* 62不同路径.swift in Sources */,
 				52878A3D269453D10019A436 /* 155最小栈.swift in Sources */,
 				5225CD1A268C1FD600B1AD3B /* 121买卖股票的最佳时机.swift in Sources */,
@@ -255,6 +276,9 @@
 				527B7F0C268EB5820075F29A /* 75颜色分类.swift in Sources */,
 				5226A2A82696FC530009D847 /* 242有效的字母异位词.swift in Sources */,
 				5225CD20268C666F00B1AD3B /* 5最长回文子串.swift in Sources */,
+				52F08F28269FDC6B00FBB0BE /* 46全排列.swift in Sources */,
+				52F08F2C26A02E3400FBB0BE /* 22括号生成.swift in Sources */,
+				52F08F26269FD19E00FBB0BE /* 17电话号码的字母组合.swift in Sources */,
 				527B7F13268F19440075F29A /* 203移除链表元素.swift in Sources */,
 				52878A3F269465670019A436 /* 239滑动窗口最大值.swift in Sources */,
 				5225CD23268D9F2600B1AD3B /* 236二叉树的最近公共祖先.swift in Sources */,

@@ -7,9 +7,16 @@
 
 import Foundation
 
+// ----- DFS -----
+print(Solution22().generateParenthesis(3))
+//print(Solution47().permuteUnique([1, 1]))
+//print(Solution46().permute([1, 2, 3]))
+//print(Solution17().letterCombinations("23"))
+
+
 // ----- 字符串 -----
 
-print(Solution242().isAnagram("abc", "aba"))
+//print(Solution242().isAnagram("abc", "aba"))
 
 //给定的树 s:
 //     3
