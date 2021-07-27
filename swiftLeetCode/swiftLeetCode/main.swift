@@ -7,8 +7,17 @@
 
 import Foundation
 
+// ----- 高频题 -----
+print(Solution54().spiralOrder([[2,5],[8,4],[0,-1]]))
+//print(SolutionOffer62().lastRemaining(10, 17))
+//print(Solution15().threeSum([0,0,0,0]))
+//print(Solution1().twoSum([3, 3], 6))
+//var nums = [0,1,0,3,12]
+//Solution283().moveZeroes(&nums)
+//print(nums)
+
 // ----- DFS -----
-print(Solution22().generateParenthesis(3))
+//print(Solution22().generateParenthesis(3))
 //print(Solution47().permuteUnique([1, 1]))
 //print(Solution46().permute([1, 2, 3]))
 //print(Solution17().letterCombinations("23"))
