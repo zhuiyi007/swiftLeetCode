@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521017CA26AF9D1800F6B12C /* 7整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017C926AF9D1800F6B12C /* 7整数反转.swift */; };
+		521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */; };
 		5225CD10268B067500B1AD3B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225CD0F268B067500B1AD3B /* main.swift */; };
 		5225CD18268B072600B1AD3B /* Offer47礼物的最大价值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225CD17268B072600B1AD3B /* Offer47礼物的最大价值.swift */; };
 		5225CD1A268C1FD600B1AD3B /* 121买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225CD19268C1FD600B1AD3B /* 121买卖股票的最佳时机.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		521017C926AF9D1800F6B12C /* 7整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7整数反转.swift"; sourceTree = "<group>"; };
+		521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11盛最多水的容器.swift"; sourceTree = "<group>"; };
 		5225CD0C268B067500B1AD3B /* swiftLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		5225CD0F268B067500B1AD3B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5225CD17268B072600B1AD3B /* Offer47礼物的最大价值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer47礼物的最大价值.swift"; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 				5235583D26A6B77F001477C7 /* 15三数之和.swift */,
 				5235583F26A9760E001477C7 /* 剑指Offer62圆圈中最后剩下的数字.swift */,
 				5255597026AA613400D1FDE1 /* 54螺旋矩阵.swift */,
+				521017C926AF9D1800F6B12C /* 7整数反转.swift */,
+				521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */,
 			);
 			path = "高频题";
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				5226A29F2696DA470009D847 /* 654最大二叉树.swift in Sources */,
 				52878A3A269422590019A436 /* 234回文链表.swift in Sources */,
 				52F08F2A269FE3C800FBB0BE /* 47全排列II.swift in Sources */,
+				521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */,
 				5225CD1E268C4FE000B1AD3B /* 62不同路径.swift in Sources */,
 				52878A3D269453D10019A436 /* 155最小栈.swift in Sources */,
 				5225CD1A268C1FD600B1AD3B /* 121买卖股票的最佳时机.swift in Sources */,
@@ -309,6 +316,7 @@
 				527B7F13268F19440075F29A /* 203移除链表元素.swift in Sources */,
 				5235583E26A6B77F001477C7 /* 15三数之和.swift in Sources */,
 				52878A3F269465670019A436 /* 239滑动窗口最大值.swift in Sources */,
+				521017CA26AF9D1800F6B12C /* 7整数反转.swift in Sources */,
 				5225CD23268D9F2600B1AD3B /* 236二叉树的最近公共祖先.swift in Sources */,
 				5254F6CB26931A1F00FA5333 /* 160相交链表.swift in Sources */,
 				5225CD25268DAF7700B1AD3B /* 99恢复二叉搜索树.swift in Sources */,
