@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4685FC3926DC7596002ED1A1 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685FC3826DC7596002ED1A1 /* Heap.swift */; };
+		4685FC3B26DC76C3002ED1A1 /* CompareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685FC3A26DC76C3002ED1A1 /* CompareProtocol.swift */; };
+		46F0F42F26D7B78F0000574C /* 42接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F0F42E26D7B78F0000574C /* 42接雨水.swift */; };
 		521017CA26AF9D1800F6B12C /* 7整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017C926AF9D1800F6B12C /* 7整数反转.swift */; };
 		521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */; };
 		5225CD10268B067500B1AD3B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225CD0F268B067500B1AD3B /* main.swift */; };
@@ -57,6 +60,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4685FC3826DC7596002ED1A1 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		4685FC3A26DC76C3002ED1A1 /* CompareProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareProtocol.swift; sourceTree = "<group>"; };
+		46F0F42E26D7B78F0000574C /* 42接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42接雨水.swift"; sourceTree = "<group>"; };
 		521017C926AF9D1800F6B12C /* 7整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7整数反转.swift"; sourceTree = "<group>"; };
 		521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11盛最多水的容器.swift"; sourceTree = "<group>"; };
 		5225CD0C268B067500B1AD3B /* swiftLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,9 +112,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4685FC3626DC7511002ED1A1 /* DataStruct */ = {
+			isa = PBXGroup;
+			children = (
+				4685FC3726DC7524002ED1A1 /* Heap */,
+			);
+			path = DataStruct;
+			sourceTree = "<group>";
+		};
+		4685FC3726DC7524002ED1A1 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				4685FC3826DC7596002ED1A1 /* Heap.swift */,
+				4685FC3A26DC76C3002ED1A1 /* CompareProtocol.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 		5225CD03268B067500B1AD3B = {
 			isa = PBXGroup;
 			children = (
+				4685FC3626DC7511002ED1A1 /* DataStruct */,
 				527B7F08268EAEA10075F29A /* ArraySort */,
 				527B7F11268F192C0075F29A /* LinkedList */,
 				52878A3B269453B00019A436 /* StackQueue */,
@@ -179,6 +203,7 @@
 				5255597026AA613400D1FDE1 /* 54螺旋矩阵.swift */,
 				521017C926AF9D1800F6B12C /* 7整数反转.swift */,
 				521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */,
+				46F0F42E26D7B78F0000574C /* 42接雨水.swift */,
 			);
 			path = "高频题";
 			sourceTree = "<group>";
@@ -290,6 +315,7 @@
 				5235583C26A6B1B3001477C7 /* 1两数之和.swift in Sources */,
 				5225CD1C268C425400B1AD3B /* 64最小路径和.swift in Sources */,
 				5226A29F2696DA470009D847 /* 654最大二叉树.swift in Sources */,
+				46F0F42F26D7B78F0000574C /* 42接雨水.swift in Sources */,
 				52878A3A269422590019A436 /* 234回文链表.swift in Sources */,
 				52F08F2A269FE3C800FBB0BE /* 47全排列II.swift in Sources */,
 				521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */,
@@ -300,10 +326,12 @@
 				527B7F0A268EAEC20075F29A /* 88合并两个有序数组.swift in Sources */,
 				52878A3826941E3A0019A436 /* 86分隔链表.swift in Sources */,
 				5225CD18268B072600B1AD3B /* Offer47礼物的最大价值.swift in Sources */,
+				4685FC3926DC7596002ED1A1 /* Heap.swift in Sources */,
 				5235584026A9760E001477C7 /* 剑指Offer62圆圈中最后剩下的数字.swift in Sources */,
 				5226A2A42696E6A30009D847 /* 面试题01_09字符串轮转.swift in Sources */,
 				5255597126AA613400D1FDE1 /* 54螺旋矩阵.swift in Sources */,
 				527B7F15268F2E920075F29A /* 2两数相加.swift in Sources */,
+				4685FC3B26DC76C3002ED1A1 /* CompareProtocol.swift in Sources */,
 				527B7F10268EC0C00075F29A /* 977有序数组的平方.swift in Sources */,
 				527B7F0E268EB9270075F29A /* 面试题16_16部分排序.swift in Sources */,
 				527B7F0C268EB5820075F29A /* 75颜色分类.swift in Sources */,
