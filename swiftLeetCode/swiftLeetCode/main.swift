@@ -6,9 +6,12 @@
 //
 
 import Foundation
+// ----- 经典面试150题 -----
+Classics150Run()
+
 
 // ----- 高频题 -----
-print(Solution42().trap([4,2,3]))
+//print(Solution42().trap([4,2,3]))
 //print(Solution11().maxArea([1,2,4,3]))
 //print(Solution7().reverse(1534236469))
 //print(Solution54().spiralOrder([[2,5],[8,4],[0,-1]]))
