@@ -25,9 +25,19 @@ func Classics150Run() {
     
 //    print(Classics150_Solution169().majorityElement([10,9,9,9,10]))
     
-    var array189 = [1,2,3,4,5,6]
-    Classics150_Solution189().rotate(&array189, 3)
-    print(array189)
+//    var array189 = [1,2,3,4,5,6]
+//    Classics150_Solution189().rotate(&array189, 3)
+//    print(array189)
+    
+//    print(Classics150_Solution121().maxProfit([7,6,4,3,1]))
+    
+//    print(Classics150_Solution122().maxProfit([7,1,5,3,6,4]))
+    
+//    print(Classics150_Solution55().canJump([2,3,1,1,4]))
+    
+    print(Classics150_Solution45().jump([1,1,1,1,1]))
+    
+    
     
     print("Classics150Run - end")
 }
