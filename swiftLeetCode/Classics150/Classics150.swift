@@ -35,7 +35,9 @@ func Classics150Run() {
     
 //    print(Classics150_Solution55().canJump([2,3,1,1,4]))
     
-    print(Classics150_Solution45().jump([1,1,1,1,1]))
+//    print(Classics150_Solution45().jump([1,1,1,1,1]))
+    
+    print(Classics150_Solution274().hIndex([3,0,6,1,5]))
     
     
     
