@@ -19,6 +19,8 @@
 		464AE83C2B56623900B21D41 /* 55 跳跃游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE83B2B56623900B21D41 /* 55 跳跃游戏.swift */; };
 		464AE83E2B56627600B21D41 /* 45 跳跃游戏 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE83D2B56627600B21D41 /* 45 跳跃游戏 II.swift */; };
 		464AE8402B57A60700B21D41 /* 274 H 指数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE83F2B57A60700B21D41 /* 274 H 指数.swift */; };
+		464AE8422B57A65800B21D41 /* 238 除自身以外数组的乘积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8412B57A65800B21D41 /* 238 除自身以外数组的乘积.swift */; };
+		464AE8442B57A68B00B21D41 /* 134 加油站-undo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8432B57A68B00B21D41 /* 134 加油站-undo.swift */; };
 		46F0F42F26D7B78F0000574C /* 42接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F0F42E26D7B78F0000574C /* 42接雨水.swift */; };
 		521017CA26AF9D1800F6B12C /* 7整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017C926AF9D1800F6B12C /* 7整数反转.swift */; };
 		521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */; };
@@ -82,6 +84,8 @@
 		464AE83B2B56623900B21D41 /* 55 跳跃游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55 跳跃游戏.swift"; sourceTree = "<group>"; };
 		464AE83D2B56627600B21D41 /* 45 跳跃游戏 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "45 跳跃游戏 II.swift"; sourceTree = "<group>"; };
 		464AE83F2B57A60700B21D41 /* 274 H 指数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "274 H 指数.swift"; sourceTree = "<group>"; };
+		464AE8412B57A65800B21D41 /* 238 除自身以外数组的乘积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238 除自身以外数组的乘积.swift"; sourceTree = "<group>"; };
+		464AE8432B57A68B00B21D41 /* 134 加油站-undo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134 加油站-undo.swift"; sourceTree = "<group>"; };
 		46F0F42E26D7B78F0000574C /* 42接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42接雨水.swift"; sourceTree = "<group>"; };
 		521017C926AF9D1800F6B12C /* 7整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7整数反转.swift"; sourceTree = "<group>"; };
 		521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11盛最多水的容器.swift"; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 				464AE83B2B56623900B21D41 /* 55 跳跃游戏.swift */,
 				464AE83D2B56627600B21D41 /* 45 跳跃游戏 II.swift */,
 				464AE83F2B57A60700B21D41 /* 274 H 指数.swift */,
+				464AE8412B57A65800B21D41 /* 238 除自身以外数组的乘积.swift */,
+				464AE8432B57A68B00B21D41 /* 134 加油站-undo.swift */,
 			);
 			path = Array_String;
 			sourceTree = "<group>";
@@ -357,6 +363,7 @@
 				521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */,
 				5225CD1E268C4FE000B1AD3B /* 62不同路径.swift in Sources */,
 				52878A3D269453D10019A436 /* 155最小栈.swift in Sources */,
+				464AE8422B57A65800B21D41 /* 238 除自身以外数组的乘积.swift in Sources */,
 				5225CD1A268C1FD600B1AD3B /* 121买卖股票的最佳时机.swift in Sources */,
 				464AE8362B5140AF00B21D41 /* 189 轮转数组.swift in Sources */,
 				5225CD10268B067500B1AD3B /* main.swift in Sources */,
@@ -370,6 +377,7 @@
 				5226A2A42696E6A30009D847 /* 面试题01_09字符串轮转.swift in Sources */,
 				5255597126AA613400D1FDE1 /* 54螺旋矩阵.swift in Sources */,
 				527B7F15268F2E920075F29A /* 2两数相加.swift in Sources */,
+				464AE8442B57A68B00B21D41 /* 134 加油站-undo.swift in Sources */,
 				527B7F10268EC0C00075F29A /* 977有序数组的平方.swift in Sources */,
 				527B7F0E268EB9270075F29A /* 面试题16_16部分排序.swift in Sources */,
 				527B7F0C268EB5820075F29A /* 75颜色分类.swift in Sources */,

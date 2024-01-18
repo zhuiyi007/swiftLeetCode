@@ -92,6 +92,11 @@ class Classics150_Solution189 {
         }
     }
     
+    /**
+     从0位置开始,依次往后替换,直到替换回0位置,再开始下一次循环,总共循环次数为k和数组个数的最大公约数
+     执行用时分布 240 ms 击败 25.23% 使用 Swift 的用户
+     消耗内存分布 22.49 MB 击败 10.75% 使用 Swift 的用户
+     */
     func rotate(_ nums: inout [Int], _ k: Int) {
         let numsCount = nums.count
         let processK = k % numsCount
@@ -101,11 +106,18 @@ class Classics150_Solution189 {
         for start in 0..<loopCount {
             var current = start, lastPositionNum = nums[start]
             while true {
+                /// 当前元素移动后的位置
                 let targetPosition = (current + processK) % numsCount
+                /// 先记录一下移动后目标位置的数值
                 let tempLastNum = nums[targetPosition]
+                /// 拿上一次纪录的数值替换目标位置的数值
                 nums[targetPosition] = lastPositionNum
+                /// 更新上一次纪录的数值
                 lastPositionNum = tempLastNum
+                /// 更新当前位置
                 current = targetPosition
+                /// 如果当前替换到了开始位置
+                /// 则退出此次循环
                 if start == current {
                     break
                 }
