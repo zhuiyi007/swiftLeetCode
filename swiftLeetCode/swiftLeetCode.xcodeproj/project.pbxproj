@@ -21,6 +21,10 @@
 		464AE8402B57A60700B21D41 /* 274 H 指数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE83F2B57A60700B21D41 /* 274 H 指数.swift */; };
 		464AE8422B57A65800B21D41 /* 238 除自身以外数组的乘积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8412B57A65800B21D41 /* 238 除自身以外数组的乘积.swift */; };
 		464AE8442B57A68B00B21D41 /* 134 加油站-undo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8432B57A68B00B21D41 /* 134 加油站-undo.swift */; };
+		464AE8462B58CFD000B21D41 /* 58 最后一个单词的长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8452B58CFD000B21D41 /* 58 最后一个单词的长度.swift */; };
+		464AE8482B58D00200B21D41 /* 14 最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8472B58D00200B21D41 /* 14 最长公共前缀.swift */; };
+		464AE84A2B58D04100B21D41 /* 151 反转字符串中的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8492B58D04100B21D41 /* 151 反转字符串中的单词.swift */; };
+		464AE84C2B58D06F00B21D41 /* 28 找出字符串中第一个匹配项的下标.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE84B2B58D06F00B21D41 /* 28 找出字符串中第一个匹配项的下标.swift */; };
 		46F0F42F26D7B78F0000574C /* 42接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F0F42E26D7B78F0000574C /* 42接雨水.swift */; };
 		521017CA26AF9D1800F6B12C /* 7整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017C926AF9D1800F6B12C /* 7整数反转.swift */; };
 		521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */; };
@@ -86,6 +90,10 @@
 		464AE83F2B57A60700B21D41 /* 274 H 指数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "274 H 指数.swift"; sourceTree = "<group>"; };
 		464AE8412B57A65800B21D41 /* 238 除自身以外数组的乘积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238 除自身以外数组的乘积.swift"; sourceTree = "<group>"; };
 		464AE8432B57A68B00B21D41 /* 134 加油站-undo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134 加油站-undo.swift"; sourceTree = "<group>"; };
+		464AE8452B58CFD000B21D41 /* 58 最后一个单词的长度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58 最后一个单词的长度.swift"; sourceTree = "<group>"; };
+		464AE8472B58D00200B21D41 /* 14 最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14 最长公共前缀.swift"; sourceTree = "<group>"; };
+		464AE8492B58D04100B21D41 /* 151 反转字符串中的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151 反转字符串中的单词.swift"; sourceTree = "<group>"; };
+		464AE84B2B58D06F00B21D41 /* 28 找出字符串中第一个匹配项的下标.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28 找出字符串中第一个匹配项的下标.swift"; sourceTree = "<group>"; };
 		46F0F42E26D7B78F0000574C /* 42接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42接雨水.swift"; sourceTree = "<group>"; };
 		521017C926AF9D1800F6B12C /* 7整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7整数反转.swift"; sourceTree = "<group>"; };
 		521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11盛最多水的容器.swift"; sourceTree = "<group>"; };
@@ -161,6 +169,10 @@
 				464AE83F2B57A60700B21D41 /* 274 H 指数.swift */,
 				464AE8412B57A65800B21D41 /* 238 除自身以外数组的乘积.swift */,
 				464AE8432B57A68B00B21D41 /* 134 加油站-undo.swift */,
+				464AE8452B58CFD000B21D41 /* 58 最后一个单词的长度.swift */,
+				464AE8472B58D00200B21D41 /* 14 最长公共前缀.swift */,
+				464AE8492B58D04100B21D41 /* 151 反转字符串中的单词.swift */,
+				464AE84B2B58D06F00B21D41 /* 28 找出字符串中第一个匹配项的下标.swift */,
 			);
 			path = Array_String;
 			sourceTree = "<group>";
@@ -348,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5226A2A12696DDD50009D847 /* 739每日温度.swift in Sources */,
+				464AE8462B58CFD000B21D41 /* 58 最后一个单词的长度.swift in Sources */,
 				5226A2A62696E9250009D847 /* 572另一个树的子树.swift in Sources */,
 				464AE8342B5138C200B21D41 /* 169 多数元素.swift in Sources */,
 				5235583C26A6B1B3001477C7 /* 1两数之和.swift in Sources */,
@@ -368,7 +381,9 @@
 				464AE8362B5140AF00B21D41 /* 189 轮转数组.swift in Sources */,
 				5225CD10268B067500B1AD3B /* main.swift in Sources */,
 				527B7F0A268EAEC20075F29A /* 88合并两个有序数组.swift in Sources */,
+				464AE84C2B58D06F00B21D41 /* 28 找出字符串中第一个匹配项的下标.swift in Sources */,
 				464AE83C2B56623900B21D41 /* 55 跳跃游戏.swift in Sources */,
+				464AE84A2B58D04100B21D41 /* 151 反转字符串中的单词.swift in Sources */,
 				464AE83E2B56627600B21D41 /* 45 跳跃游戏 II.swift in Sources */,
 				52878A3826941E3A0019A436 /* 86分隔链表.swift in Sources */,
 				5225CD18268B072600B1AD3B /* Offer47礼物的最大价值.swift in Sources */,
@@ -390,6 +405,7 @@
 				527B7F13268F19440075F29A /* 203移除链表元素.swift in Sources */,
 				464AE82C2B50EF0000B21D41 /* 88 合并两个有序数组.swift in Sources */,
 				5235583E26A6B77F001477C7 /* 15三数之和.swift in Sources */,
+				464AE8482B58D00200B21D41 /* 14 最长公共前缀.swift in Sources */,
 				52878A3F269465670019A436 /* 239滑动窗口最大值.swift in Sources */,
 				521017CA26AF9D1800F6B12C /* 7整数反转.swift in Sources */,
 				464AE8322B512EAB00B21D41 /* 80 删除有序数组中的重复项 II.swift in Sources */,

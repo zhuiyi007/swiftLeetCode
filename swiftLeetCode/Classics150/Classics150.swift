@@ -39,9 +39,15 @@ func Classics150Run() {
     
 //    print(Classics150_Solution274().hIndex([3,0,6,1,5]))
     
-    print(Classics150_Solution238().productExceptSelf([-1,1,0,-3,3]))
+//    print(Classics150_Solution238().productExceptSelf([-1,1,0,-3,3]))
     
+//    print(Classics150_Solution58().lengthOfLastWord("   fly me   to   the moon  "))
     
+//    print(Classics150_Solution14().longestCommonPrefix(["ab", "a"]))
+    
+//    print(Classics150_Solution151().reverseWords("  a good   example  "))
+    
+    print(Classics150_Solution28().strStr("leetcode", "le"))
     
     print("Classics150Run - end")
 }
