@@ -45,7 +45,27 @@
 import Foundation
 
 class Classics150_Solution167 {
+    
+    /**
+     执行用时分布 71 ms 击败 42.47% 使用 Swift 的用户
+     消耗内存分布 16.03 MB 击败 5.48% 使用 Swift 的用户
+     */
     func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
-return []
+        var start = 0, end = numbers.count - 1
+        while start < end {
+            if numbers[start] + numbers[end] == target {
+                return [start + 1, end + 1]
+            }
+            if numbers[start] + numbers[end] > target {
+                /// 求和的结果大了
+                /// 需要end往前移
+                end -= 1
+            } else {
+                /// 求和的结果小了
+                /// 需要start往后移
+                start += 1
+            }
+        }
+        return []
     }
 }

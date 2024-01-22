@@ -62,6 +62,13 @@ func Classics150Run数组_字符串() {
 
 func Classics150Run双指针() {
     print("Classics150Run - 双指针 - start")
-    print(Classics150_Solution125().isPalindrome("asd"))
+    
+//    print(Classics150_Solution125().isPalindrome("asd"))
+    
+//    print(Classics150_Solution392().isSubsequence("abc", "ahbgdc"))
+    
+    print(Classics150_Solution167().twoSum([-1,0], 3))
+    
+    
     print("Classics150Run - 双指针 - end")
 }

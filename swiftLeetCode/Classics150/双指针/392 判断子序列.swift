@@ -41,7 +41,30 @@
 import Foundation
 
 class Classics150_Solution392 {
+    
+    /**
+     执行用时分布 3 ms 击败 82.56% 使用 Swift 的用户
+     消耗内存分布 15.59 MB 击败 5.81% 使用 Swift 的用户
+     */
     func isSubsequence(_ s: String, _ t: String) -> Bool {
-return true
+        if s.count == 0 {
+            return true
+        }
+        if s.count > t.count || t.count == 0 {
+            return false
+        }
+        var sCurrentIndex = 0
+        // 取出s的第一个字符
+        var sCurrentChar = s[s.index(s.startIndex, offsetBy: sCurrentIndex)]
+        for word in t {
+            if sCurrentChar == word {
+                sCurrentIndex += 1
+                if sCurrentIndex == s.count {
+                    return true
+                }
+                sCurrentChar = s[s.index(s.startIndex, offsetBy: sCurrentIndex)]
+            }
+        }
+        return false
     }
 }
