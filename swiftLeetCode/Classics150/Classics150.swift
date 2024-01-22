@@ -9,7 +9,12 @@
 import Foundation
 
 func Classics150Run() {
-    print("Classics150Run - start")
+//    Classics150Run数组_字符串()
+    Classics150Run双指针()
+}
+
+func Classics150Run数组_字符串() {
+    print("Classics150Run - 数组_字符串 - start")
 //    var array88 = [0]
 //    Classics150_Solution88().merge(&array88, 0, [2], 1)
 //    print(array88)
@@ -47,7 +52,16 @@ func Classics150Run() {
     
 //    print(Classics150_Solution151().reverseWords("  a good   example  "))
     
-    print(Classics150_Solution28().strStr("leetcode", "le"))
+//    print(Classics150_Solution28().strStr("leetcode", "le"))
     
-    print("Classics150Run - end")
+    print("Classics150Run - 数组_字符串 - end")
+}
+
+
+
+
+func Classics150Run双指针() {
+    print("Classics150Run - 双指针 - start")
+    print(Classics150_Solution125().isPalindrome("asd"))
+    print("Classics150Run - 双指针 - end")
 }

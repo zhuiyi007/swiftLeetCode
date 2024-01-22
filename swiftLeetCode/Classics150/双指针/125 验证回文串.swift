@@ -42,7 +42,75 @@
 import Foundation
 
 class Classics150_Solution125 {
+    
+    /**
+     执行用时分布 15 ms 击败 62.35% 使用 Swift 的用户
+     消耗内存分布 17.59 MB 击败 14.12% 使用 Swift 的用户
+     */
     func isPalindrome(_ s: String) -> Bool {
-return true
+        /// swift特性,构造一个数组,在构造过程中,把非法字符直接删掉
+        let array = s.lowercased().compactMap { char in
+            return isLowercaseOrNumber(uint8:char.asciiValue!) ? char : nil
+        }
+        var start = 0, end = array.count - 1
+        while start < end {
+            if array[start] != array[end] {
+                return false
+            }
+            start += 1
+            end -= 1
+        }
+        return true
+    }
+    func isLowercaseOrNumber(uint8 ascii: UInt8) -> Bool {
+        return (ascii >= "0".unicodeScalars.first!.value && ascii <= "9".unicodeScalars.first!.value) || (ascii >= "a".unicodeScalars.first!.value) && ascii <= "z".unicodeScalars.first!.value
+    }
+    
+    /**
+     执行用时分布 33 ms 击败 12.94% 使用 Swift 的用户
+     消耗内存分布 15.45 MB 击败 62.35% 使用 Swift 的用户
+     */
+    func isPalindrome1(_ s: String) -> Bool {
+        let lowerString = s.lowercased()
+        var start = 0, end = lowerString.count - 1
+        while start < end {
+            var startChar = UInt32()
+            var endChar = UInt32()
+            while start < end {
+                /// 小循环过滤掉非法字符
+                var canStop = 0
+                
+                /// ✅使用NSRange比直接用String.index效率要好很多 : 50s => 10ms✅
+                /// ❌startChar = lowerString[lowerString.index(lowerString.startIndex, offsetBy: start)].unicodeScalars.first!.value❌
+                startChar = lowerString[Range(NSRange(location: start, length: 1), in: lowerString)!].unicodeScalars.first!.value
+                if !isLowercaseOrNumber(startChar) {
+                    start += 1
+                } else {
+                    canStop += 1
+                }
+                endChar = lowerString[Range(NSRange(location: end, length: 1), in: lowerString)!].unicodeScalars.first!.value
+                if !isLowercaseOrNumber(endChar)  {
+                    end -= 1
+                } else {
+                    canStop += 1
+                }
+                /// 当头和尾都不是非字母字符时,退出
+                if canStop == 2 {
+                    break
+                }
+            }
+            if end <= start {
+                return true
+            }
+            if startChar != endChar {
+                return false
+            }
+            start += 1
+            end -= 1
+        }
+        return true
+    }
+    func isLowercaseOrNumber(_ ascii: UInt32) -> Bool {
+        return (ascii >= "0".unicodeScalars.first!.value && ascii <= "9".unicodeScalars.first!.value) || (ascii >= "a".unicodeScalars.first!.value) && ascii <= "z".unicodeScalars.first!.value
     }
 }
