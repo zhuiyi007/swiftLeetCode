@@ -40,7 +40,28 @@
 import Foundation
 
 class Classics150_Solution11 {
+    /**
+     执行用时分布 621 ms 击败 11.34% 使用 Swift 的用户
+     消耗内存分布 19.53 MB 击败 5.46% 使用 Swift 的用户
+     */
     func maxArea(_ height: [Int]) -> Int {
-return 0
+        var left = 0, right = height.count - 1
+        var result = 0
+        while left < right {
+            /// 记录两边最低的柱子
+            let minHeight = min(height[left], height[right])
+            let tempResult = minHeight * (right - left)
+            if tempResult > result {
+                result = tempResult
+            }
+            /// 比当前最低高度还低的柱子直接跳过
+            while left < right && height[left] <= minHeight {
+                left += 1
+            }
+            while left < right && height[right] <= minHeight {
+                right -= 1
+            }
+        }
+        return result
     }
 }

@@ -48,7 +48,55 @@
 import Foundation
 
 class Classics150_Solution15 {
+    
+    /**
+     执行用时分布 191 ms 击败 34.58% 使用 Swift 的用户
+     消耗内存分布 19.74 MB 击败 12.54% 使用 Swift 的用户
+     */
     func threeSum(_ nums: [Int]) -> [[Int]] {
-return [[]]
+        if nums.count < 3 {
+            return []
+        }
+        let sortNums = nums.sorted()
+        var result = [[Int]]()
+        
+        /// 在每一轮大循环中,固定start值,让middle和end不断左右移动来寻找可能的答案
+        for start in 0..<sortNums.count {
+            if sortNums[start] > 0 {
+                /// 因为数组是有序的
+                /// 如果起始的数都大于0
+                /// 后面就不用遍历了,肯定没有预期的结果
+                break
+            }
+            if start > 0 && sortNums[start] == sortNums[start - 1] {
+                /// 如果当前值与上一个值相等,则直接跳过
+                continue
+            }
+            var middle = start + 1, end = sortNums.count - 1
+            while middle < end {
+                let count = sortNums[start] + sortNums[middle] + sortNums[end]
+                if count == 0 {
+                    /// 找到了符合预期的结果
+                    result.append([sortNums[start], sortNums[middle], sortNums[end]])
+                    /// 同时移动middle和end
+                    /// 并且在过程中进行去重
+                    while middle < end && sortNums[middle] == sortNums[middle + 1] {
+                        middle += 1
+                    }
+                    while middle < end && sortNums[end] == sortNums[end - 1] {
+                        end -= 1
+                    }
+                    middle += 1
+                    end -= 1
+                } else if count > 0 {
+                    /// 结果大了,需要往小了凑
+                    end -= 1
+                } else {
+                    /// 结果小了,需要往大了凑
+                    middle += 1
+                }
+            }
+        }
+        return result
     }
 }
