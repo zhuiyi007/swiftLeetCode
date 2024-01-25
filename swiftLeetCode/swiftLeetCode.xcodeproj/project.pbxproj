@@ -31,6 +31,8 @@
 		464AE8552B5E8B8C00B21D41 /* 11 盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8542B5E8B8C00B21D41 /* 11 盛最多水的容器.swift */; };
 		464AE8572B5E8BC800B21D41 /* 15 三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8562B5E8BC800B21D41 /* 15 三数之和.swift */; };
 		464AE8642B5E8C8A00B21D41 /* Classics150Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AE8632B5E8C8A00B21D41 /* Classics150Test.swift */; };
+		46C39FEA2B60D35800488265 /* 209 长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39FE92B60D35800488265 /* 209 长度最小的子数组.swift */; };
+		46C39FEC2B60D36900488265 /* 3 无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39FEB2B60D36900488265 /* 3 无重复字符的最长子串.swift */; };
 		46F0F42F26D7B78F0000574C /* 42接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F0F42E26D7B78F0000574C /* 42接雨水.swift */; };
 		521017CA26AF9D1800F6B12C /* 7整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017C926AF9D1800F6B12C /* 7整数反转.swift */; };
 		521017CC26AFA16500F6B12C /* 11盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */; };
@@ -107,6 +109,8 @@
 		464AE8562B5E8BC800B21D41 /* 15 三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15 三数之和.swift"; sourceTree = "<group>"; };
 		464AE85C2B5E8C6900B21D41 /* swiftLeetCodeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftLeetCodeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		464AE8632B5E8C8A00B21D41 /* Classics150Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classics150Test.swift; sourceTree = "<group>"; };
+		46C39FE92B60D35800488265 /* 209 长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209 长度最小的子数组.swift"; sourceTree = "<group>"; };
+		46C39FEB2B60D36900488265 /* 3 无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3 无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		46F0F42E26D7B78F0000574C /* 42接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42接雨水.swift"; sourceTree = "<group>"; };
 		521017C926AF9D1800F6B12C /* 7整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7整数反转.swift"; sourceTree = "<group>"; };
 		521017CB26AFA16500F6B12C /* 11盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11盛最多水的容器.swift"; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 		464AD2BA2B50E87500B21D41 /* Classics150 */ = {
 			isa = PBXGroup;
 			children = (
+				46C39FE82B60D34500488265 /* 滑动窗口 */,
 				464AE84D2B5E8AD200B21D41 /* 双指针 */,
 				464AE82A2B50EECC00B21D41 /* 数组_字符串 */,
 				464AD2BB2B50E8A000B21D41 /* Classics150.swift */,
@@ -216,6 +221,15 @@
 				464AE8632B5E8C8A00B21D41 /* Classics150Test.swift */,
 			);
 			path = swiftLeetCodeTest;
+			sourceTree = "<group>";
+		};
+		46C39FE82B60D34500488265 /* 滑动窗口 */ = {
+			isa = PBXGroup;
+			children = (
+				46C39FE92B60D35800488265 /* 209 长度最小的子数组.swift */,
+				46C39FEB2B60D36900488265 /* 3 无重复字符的最长子串.swift */,
+			);
+			path = "滑动窗口";
 			sourceTree = "<group>";
 		};
 		5225CD03268B067500B1AD3B = {
@@ -462,6 +476,7 @@
 				464AE8422B57A65800B21D41 /* 238 除自身以外数组的乘积.swift in Sources */,
 				5225CD1A268C1FD600B1AD3B /* 121买卖股票的最佳时机.swift in Sources */,
 				464AE8362B5140AF00B21D41 /* 189 轮转数组.swift in Sources */,
+				46C39FEC2B60D36900488265 /* 3 无重复字符的最长子串.swift in Sources */,
 				5225CD10268B067500B1AD3B /* main.swift in Sources */,
 				527B7F0A268EAEC20075F29A /* 88合并两个有序数组.swift in Sources */,
 				464AE84C2B58D06F00B21D41 /* 28 找出字符串中第一个匹配项的下标.swift in Sources */,
@@ -489,6 +504,7 @@
 				464AE8552B5E8B8C00B21D41 /* 11 盛最多水的容器.swift in Sources */,
 				464AE82C2B50EF0000B21D41 /* 88 合并两个有序数组.swift in Sources */,
 				464AE8532B5E8B5B00B21D41 /* 167 两数之和 II - 输入有序数组.swift in Sources */,
+				46C39FEA2B60D35800488265 /* 209 长度最小的子数组.swift in Sources */,
 				5235583E26A6B77F001477C7 /* 15三数之和.swift in Sources */,
 				464AE8482B58D00200B21D41 /* 14 最长公共前缀.swift in Sources */,
 				52878A3F269465670019A436 /* 239滑动窗口最大值.swift in Sources */,
@@ -673,6 +689,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -683,6 +700,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
